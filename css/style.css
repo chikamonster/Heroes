@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.descuento{
+    background-color: #1CD1B0;
+    height: 40px;
+}
+
+.descuento p{
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.nav-title{
+    background-color: #00669F;
+    height: 80px;
+    box-shadow: 0 6px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-title h1{
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: white;
+}
+.caja-secciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 60px;
+}
+
+.box-heroes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 120px 0 120px 0;
+}
+.heroes-info{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-fondo{
+    width: 100%;
+    z-index: 0;
+}
+.img-corazon{
+    width: 11%;
+    z-index: 1;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.img-heroe{
+    margin-left: 30%;
+    margin-top: 45%;
+    width: 40%;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.box-heroes p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+}
+.box-heroes h2{
+    padding-top: 100px;
+    font-size: 26px;
+    font-weight: 400;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #00669F;
+    border: none;
+    width: 40%;
+    height: 40px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #00669F;
+    color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer img{
+    width: 70px;
+    height: auto;
+    right: 10px;
+}
